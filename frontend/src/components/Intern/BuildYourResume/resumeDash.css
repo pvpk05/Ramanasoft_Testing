@@ -1,0 +1,50 @@
+.resume-builder {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .step {
+    margin-top: 20px;
+  }
+  
+  .step h2 {
+    margin-bottom: 20px;
+  }
+  
+  .step button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .step form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .step input, .step textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 16px;
+  }
+  
+  .step textarea {
+    height: 100px;
+  }
+  
+  .step button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+  
+  .step button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
